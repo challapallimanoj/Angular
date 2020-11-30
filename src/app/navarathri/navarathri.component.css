@@ -1,0 +1,9 @@
+.row > div {
+    padding: 0 4px !important;
+}
+
+img {
+  margin-top: 8px;
+  vertical-align: middle;
+
+}

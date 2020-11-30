@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Source+Sans+Pro:ital@1&display=swap');
+.page-footer {
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); 
+    
+}
+.text-uppercase{
+    font-family: 'Source Sans Pro', sans-serif;
+    color :black;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.scrollingmatter{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
+    cursor: pointer;
+}
+.dividerheading{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color :black;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}

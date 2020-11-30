@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+@import url('https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Source+Sans+Pro:ital@1&display=swap');
+.nav li a {
+  margin-top: 5px;
+  margin-right: 8px;
+}
+.navbar{
+  background-color: #63a4ff;
+background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+.logo{
+  margin-right: 5px;
+}
+.example-icon{
+  color: black;
+  margin-left: 10px;
+}
+.example-icon1{
+    margin-left: 10px;
+    color: black;
+}
+.brand-name{
+  font-family: 'Condiment', cursive;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size :29px;
+  cursor: pointer;
+}
+::ng-deep .customize{
+  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+	border-radius: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  outline: none;
+}
+.menu1 {
+	margin-left: 20px;
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  outline: none;
+}
+.search{
+  margin-right: 15px;
+}
