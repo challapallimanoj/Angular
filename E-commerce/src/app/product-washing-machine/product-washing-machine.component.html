@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/Tshirt-component assets/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-manoj" *ngFor="let m of menu">
+        <div class="card-manu">
+            <img src="{{m.imageUrl}}" alt="" class="card-manu__img"> 
+                 <div class="card-manu__data">
+                     <h1 class="card-manu__title">{{m.name}}</h1>
+                     <span class="card-manu__preci">{{m.price}}</span>
+                     <p class="card-manu__description">{{m.description}}</p>
+                     <a href="#" class="card-manu__button" routerLink='/sips-payment'>Buy Now</a>
+                 </div>
+        </div>
+    </div>
+</body>
+</html>

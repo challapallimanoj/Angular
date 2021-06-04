@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+         <h1> ADMIN PANNEL</h1>
+        </div>
+        <div class="card-body">
+            <label for="">Enter Product Name </label>
+            <br>
+            <input [(ngModel)]="registerProductData['productname']" type="text" class="form-control">
+            <br>
+            <label for="">Enter the Product Price</label>
+            <br>
+            <input [(ngModel)]="registerProductData['productprice']" type="number" class="form-control">
+            <br>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Please select the Categorie of product</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Choose one catagorie</option>
+                <option>Fashion & Beauty</option>
+                <option>Health And Sports</option>
+                <option>Babies-Hub</option>
+                <option>Stationery</option>
+                <option>Accessories & Gadgets</option>
+                <option>Electronics</option>
+                <option>Grocery</option>
+                <option>Home & Furniture</option>
+                <option>Kitchen</option>
+                <option>Idols And Figurines</option>
+              </select>
+              <br>
+            <label for="">Upload the image file &nbsp;&nbsp;&nbsp; Note : Only PNG format are accepted and make sure only ".png" will taken in</label>
+            <br><br>
+            <div class="input-group">
+              <div class="custom-file">
+                <input [(ngModel)]="registerProductData['image']" type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+              </div>
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="inputGroupFileAddon04">Upload</button>
+              </div>
+            </div>
+          </div>
+              <br><br>
+              <div class="row">
+                <div class="col">
+                    <label for="">Enter <strong>maximum</strong> discount could be given on product</label>
+                    <br><br>
+                  <input [(ngModel)]="registerProductData['maxprice']" type="number" class="form-control" placeholder="Price in Rupees" aria-label="First name">
+                </div>
+                <div class="col">
+                    <label for="">Enter <strong>minimum</strong> discount could be given on product</label>
+                    <br><br>
+                  <input [(ngModel)]="registerProductData['minprice']"  type="number" class="form-control" placeholder="Price in Rupees" aria-label="Last name">
+                </div>
+                <br>
+                <div class="button">
+                    <button class="btn btn-primary btn-lg" (click)=" registerProduct()">SUBMIT</button>
+                </div>
+              </div>
+        </div>
+      </div>
+   </div>

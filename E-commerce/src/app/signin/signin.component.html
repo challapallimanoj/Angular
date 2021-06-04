@@ -1,0 +1,41 @@
+<body>
+  <div class="brand">
+    <br>
+    <span class="brand-name">SIPS LOGIN</span>
+    <br>
+    <br>
+</div>
+<div class="container">
+  <div class="form-group">
+      <label  for="txtUname">Username</label>
+      <input [(ngModel)]="loginUserData['email']" type="text" name= "email" id="txtUname" class="form-control" required>
+  </div>
+  <div class="form-group">
+      <label for="Pwd">Password</label>
+      <input [(ngModel)]="loginUserData['password']" type="password" name="password" id="txtpwd" class="form-control" required>
+  </div>
+  <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input">
+      <label for="check" class="form-check-label">Remember me</label>
+  </div>
+  <div>
+  <button  (click)="loginUser()" type="button" class="btn btn-primary btn-block">Login</button>
+  <br>
+  <a routerLink="/signup"><button type="button" class="btn btn-primary btn-block">No Account Yet !. Create New Account .</button></a>
+  </div>
+</div>
+<div id="circularMenu" class="circular-menu">
+    <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+    <i class="fa fa-space-shuttle"></i>
+    </a>
+      <menu class="items-wrapper">
+      <!--======================= FONT AWSOME ICONS HTML CODE===================================== -->
+      <a href="https://www.facebook.com/ShoppingSips-114120513764185" class="menu-item fa fa-facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/ShoppingSips" class="menu-item fa fa-twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/_.shoppingsips._/" class="menu-item fa fa-instagram"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:ShoppingShips@outlook.com?subject = Feedback&body = Message" class="menu-item fa fa-envelope"></a>
+    </menu>
+  </div>
+</body>
+
+
